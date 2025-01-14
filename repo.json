@@ -1,0 +1,12 @@
+{
+    "repo_name": "MinimalActionRPG",
+    "repo_uri": "https://github.com/matteogrs/templates.o3de.minimal.action-rpg",
+    "summary": "Attack the enemy to collect items.",
+    "origin": "@matteogrs",
+    "origin_url": "https://github.com/matteogrs",
+    "last_updated": "2025-01-14",
+    "templates": [
+        "https://github.com/matteogrs/templates.o3de.minimal.action-rpg/raw/refs/tags/v1.0.0-beta.1/script-canvas",
+        "https://github.com/matteogrs/templates.o3de.minimal.action-rpg/raw/refs/tags/v1.0.0-beta.1/lua"
+    ]
+}

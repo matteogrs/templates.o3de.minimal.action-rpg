@@ -1,0 +1,409 @@
+{
+    "template_name": "MinimalActionRPG_Lua",
+    "template_restricted_platform_relative_path": "Templates/MinimalActionRPG_Lua",
+    "restricted_name": "o3de",
+    "restricted_platform_relative_path": "Templates/MinimalActionRPG_Lua",
+    "origin": "@matteogrs",
+    "origin_url": "https://github.com/matteogrs",
+    "source_control_uri": "https://github.com/matteogrs/templates.o3de.minimal.action-rpg.git",
+    "source_control_ref": "v1.0.0-beta.1",
+    "download_source_uri": "https://github.com/matteogrs/templates.o3de.minimal.action-rpg/releases/download/v1.0.0-beta.1/min-action-rpg-o3de-lua-1.0.0-beta.1.zip",
+    "sha256": "695974684df8bac6f593db262b0c2b42755d69a68514cd3c2c95fbfaf975fbba",
+    "version": "1.0.0-beta.1",
+    "license": "Apache 2.0",
+    "license_url": "https://github.com/matteogrs/templates.o3de.minimal.action-rpg/blob/v1.0.0-beta.1/LICENSE",
+    "display_name": "Minimal Action RPG (Lua)",
+    "summary": "Attack the enemy to collect items.",
+    "canonical_tags": [
+        "Template",
+        "Project"
+    ],
+    "user_tags": [
+        "Game",
+        "Minimal"
+    ],
+    "icon_path": "preview.png",
+    "copyFiles": [
+        {
+            "file": ".gitignore",
+            "isTemplated": false
+        },
+        {
+            "file": "CMakeLists.txt",
+            "isTemplated": true
+        },
+        {
+            "file": "CMakePresets.json",
+            "isTemplated": true
+        },
+        {
+            "file": "cmake/EngineFinder.cmake",
+            "isTemplated": true
+        },
+        {
+            "file": "Config/shader_global_build_options.json",
+            "isTemplated": false
+        },
+        {
+            "file": "Platform/Android/android_project.cmake",
+            "isTemplated": false
+        },
+        {
+            "file": "Platform/Android/android_project.json",
+            "isTemplated": true
+        },
+        {
+            "file": "Platform/Linux/linux_project.cmake",
+            "isTemplated": false
+        },
+        {
+            "file": "Platform/Linux/linux_project.json",
+            "isTemplated": false
+        },
+        {
+            "file": "Platform/Mac/mac_project.cmake",
+            "isTemplated": false
+        },
+        {
+            "file": "Platform/Mac/mac_project.json",
+            "isTemplated": false
+        },
+        {
+            "file": "Platform/Windows/windows_project.cmake",
+            "isTemplated": false
+        },
+        {
+            "file": "Platform/Windows/windows_project.json",
+            "isTemplated": false
+        },
+        {
+            "file": "Platform/iOS/ios_project.cmake",
+            "isTemplated": false
+        },
+        {
+            "file": "Platform/iOS/ios_project.json",
+            "isTemplated": false
+        },
+        {
+            "file": "Registry/assetprocessor_settings.setreg",
+            "isTemplated": false
+        },
+        {
+            "file": "Registry/load_level.setreg",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/GameSDK.ico",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Splash.bmp",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/Contents.json",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset/Contents.json",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset/icon_128.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset/icon_128_2x.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset/icon_16.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset/icon_16_2x.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset/icon_256.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset/icon_256_2x.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset/icon_32.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset/icon_32_2x.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset/icon_512.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset/icon_512_2x.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/Mac/Info.plist",
+            "isTemplated": true
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/Contents.json",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/LaunchImage.launchimage/Contents.json",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/LaunchImage.launchimage/iPadLaunchImage1024x768.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/LaunchImage.launchimage/iPadLaunchImage1536x2048.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/LaunchImage.launchimage/iPadLaunchImage2048x1536.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/LaunchImage.launchimage/iPadLaunchImage768x1024.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/LaunchImage.launchimage/iPhoneLaunchImage640x1136.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/LaunchImage.launchimage/iPhoneLaunchImage640x960.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/Contents.json",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPadAppIcon152x152.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPadAppIcon76x76.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPadProAppIcon167x167.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPadSettingsIcon29x29.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPadSettingsIcon58x58.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPadSpotlightIcon40x40.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPadSpotlightIcon80x80.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPhoneAppIcon120x120.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPhoneAppIcon180x180.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPhoneSettingsIcon58x58.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPhoneSettingsIcon87x87.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPhoneSpotlightIcon120x120.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset/iPhoneSpotlightIcon80x80.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Resources/Platform/iOS/Info.plist",
+            "isTemplated": true
+        },
+        {
+            "file": "ShaderLib/README.md",
+            "isTemplated": false
+        },
+        {
+            "file": "ShaderLib/scenesrg.srgi",
+            "isTemplated": false
+        },
+        {
+            "file": "ShaderLib/viewsrg.srgi",
+            "isTemplated": false
+        },
+        {
+            "file": "package.bat",
+            "isTemplated": true
+        },
+        {
+            "file": "package.sh",
+            "isTemplated": true
+        },
+        {
+            "file": "game.cfg",
+            "isTemplated": false
+        },
+        {
+            "file": "preview.png",
+            "isTemplated": false
+        },
+        {
+            "file": "project.json",
+            "isTemplated": true
+        },
+        {
+            "file": "AssetBundling/SeedLists/Game.seed",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Inputs/GameInput.inputbindings",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Materials/Enemy.material",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Materials/Ground.material",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Materials/Item.material",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Materials/Player.material",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/ScriptEvents/ActionNotifications.scriptevents",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/ScriptEvents/ActionRequests.scriptevents",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/ScriptEvents/HealthNotifications.scriptevents",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/ScriptEvents/HealthRequests.scriptevents",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/ScriptEvents/MoveNotifications.scriptevents",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/ScriptEvents/MoveRequests.scriptevents",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Scripts/Attack.lua",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Scripts/Counterattack.lua",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Scripts/Drop.lua",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Scripts/Health.lua",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Scripts/Item.lua",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Scripts/Move.lua",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Scripts/Patrol.lua",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Scripts/Player.lua",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Scripts/Utils/LerpBetween.lua",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Scripts/Utils/RayCast.lua",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Scripts/Utils/TimeDelay.lua",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Textures/Background_iblglobalcm.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Assets/Textures/Background_skyboxcm.png",
+            "isTemplated": false
+        },
+        {
+            "file": "Levels/MainLevel/MainLevel.prefab",
+            "isTemplated": false
+        },
+        {
+            "file": "Prefabs/Potion.prefab",
+            "isTemplated": false
+        },
+        {
+            "file": "NOTICE",
+            "isTemplated": false
+        }
+    ],
+    "createDirectories": [
+        {
+            "dir": "Assets"
+        },
+        {
+            "dir": "AssetBundling"
+        },
+        {
+            "dir": "AssetBundling/SeedLists"
+        },
+        {
+            "dir": "Shaders"
+        },
+        {
+            "dir": "Shaders/ShaderResourceGroups"
+        }
+    ]
+}
