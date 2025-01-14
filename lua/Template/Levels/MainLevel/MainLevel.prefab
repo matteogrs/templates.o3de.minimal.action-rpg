@@ -1,0 +1,3263 @@
+{
+    "ContainerEntity": {
+        "Id": "Entity_[1146574390643]",
+        "Name": "Level",
+        "Components": {
+            "Component_[10641544592923449938]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10641544592923449938
+            },
+            "Component_[12039882709170782873]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12039882709170782873
+            },
+            "Component_[12265484671603697631]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12265484671603697631
+            },
+            "Component_[14126657869720434043]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14126657869720434043,
+                "Child Entity Order": [
+                    "Entity_[1176639161715]",
+                    "Entity_[460698165527]",
+                    "Entity_[3884023583285]",
+                    "Entity_[318629533569590]"
+                ]
+            },
+            "Component_[15230859088967841193]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15230859088967841193,
+                "Parent Entity": ""
+            },
+            "Component_[16239496886950819870]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16239496886950819870
+            },
+            "Component_[5688118765544765547]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5688118765544765547
+            },
+            "Component_[7247035804068349658]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7247035804068349658
+            },
+            "Component_[9307224322037797205]": {
+                "$type": "EditorLockComponent",
+                "Id": 9307224322037797205
+            },
+            "Component_[9562516168917670048]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9562516168917670048
+            },
+            "LocalViewBookmarkComponent": {
+                "$type": "LocalViewBookmarkComponent",
+                "Id": 12973374245011258108,
+                "LocalBookmarkFileName": "ActionRPG_1730740997989496045.setreg"
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1155164325235]": {
+            "Id": "Entity_[1155164325235]",
+            "Name": "MainLight",
+            "Components": {
+                "Component_[13620450453324765907]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13620450453324765907
+                },
+                "Component_[2134313378593666258]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2134313378593666258
+                },
+                "Component_[234010807770404186]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 234010807770404186
+                },
+                "Component_[2970359110423865725]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2970359110423865725
+                },
+                "Component_[3722854130373041803]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3722854130373041803
+                },
+                "Component_[5992533738676323195]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5992533738676323195
+                },
+                "Component_[7378860763541895402]": {
+                    "$type": "AZ::Render::EditorDirectionalLightComponent",
+                    "Id": 7378860763541895402,
+                    "Controller": {
+                        "Configuration": {
+                            "Intensity": 1.0,
+                            "CameraEntityId": "",
+                            "ShadowFilterMethod": 1
+                        }
+                    }
+                },
+                "Component_[7892834440890947578]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7892834440890947578,
+                    "Parent Entity": "Entity_[1176639161715]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            10.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            75.0,
+                            -75.0
+                        ]
+                    }
+                },
+                "Component_[8599729549570828259]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8599729549570828259
+                },
+                "Component_[952797371922080273]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 952797371922080273
+                }
+            }
+        },
+        "Entity_[1159459292531]": {
+            "Id": "Entity_[1159459292531]",
+            "Name": "Ground",
+            "Components": {
+                "Component_[12260880513256986252]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12260880513256986252
+                },
+                "Component_[13711420870643673468]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13711420870643673468
+                },
+                "Component_[138002849734991713]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 138002849734991713
+                },
+                "Component_[16578565737331764849]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16578565737331764849,
+                    "Parent Entity": "Entity_[2877657906709]",
+                    "Transform Data": {
+                        "UniformScale": 11.0
+                    }
+                },
+                "Component_[16919232076966545697]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16919232076966545697
+                },
+                "Component_[4228479570410194639]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 4228479570410194639
+                },
+                "Component_[5182430712893438093]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5182430712893438093,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1803671422
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{02C0493A-658A-56BB-9A79-0ACB066FCF63}"
+                                            },
+                                            "assetHint": "assets/materials/ground.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5245524694917323904]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5245524694917323904,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            -0.5
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                11.0,
+                                11.0,
+                                11.0
+                            ]
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[5675108321710651991]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5675108321710651991,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{767B3209-EDF7-503A-BF3D-6A69DAABC966}",
+                                    "subId": 285003870
+                                },
+                                "assetHint": "materialeditor/viewportmodels/plane_1x1.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5681893399601237518]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5681893399601237518
+                },
+                "Component_[592692962543397545]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 592692962543397545
+                },
+                "Component_[7090012899106946164]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7090012899106946164
+                },
+                "Component_[9410832619875640998]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9410832619875640998
+                }
+            }
+        },
+        "Entity_[1176639161715]": {
+            "Id": "Entity_[1176639161715]",
+            "Name": "Environment",
+            "Components": {
+                "Component_[10757302973393310045]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10757302973393310045,
+                    "Parent Entity": "Entity_[1146574390643]"
+                },
+                "Component_[14505817420424255464]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14505817420424255464,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10757302973393310045
+                        }
+                    ]
+                },
+                "Component_[14988041764659020032]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14988041764659020032
+                },
+                "Component_[15900837685796817138]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15900837685796817138
+                },
+                "Component_[3298767348226484884]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3298767348226484884
+                },
+                "Component_[4076975109609220594]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4076975109609220594
+                },
+                "Component_[5679760548946028854]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5679760548946028854
+                },
+                "Component_[5855590796136709437]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5855590796136709437,
+                    "Child Entity Order": [
+                        "Entity_[1180934129011]",
+                        "Entity_[1155164325235]",
+                        "Entity_[2877657906709]"
+                    ]
+                },
+                "Component_[9277695270015777859]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9277695270015777859
+                }
+            }
+        },
+        "Entity_[1180934129011]": {
+            "Id": "Entity_[1180934129011]",
+            "Name": "Background",
+            "Components": {
+                "Component_[11231930600558681245]": {
+                    "$type": "AZ::Render::EditorHDRiSkyboxComponent",
+                    "Id": 11231930600558681245,
+                    "Controller": {
+                        "Configuration": {
+                            "CubemapAsset": {
+                                "assetId": {
+                                    "guid": "{8FB1DF40-B02F-53F4-BD4D-5F2B90B41E5B}",
+                                    "subId": 1000
+                                },
+                                "assetHint": "assets/textures/background_skyboxcm.png.streamingimage"
+                            }
+                        }
+                    }
+                },
+                "Component_[1428633914413949476]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1428633914413949476
+                },
+                "Component_[14936200426671614999]": {
+                    "$type": "AZ::Render::EditorImageBasedLightComponent",
+                    "Id": 14936200426671614999,
+                    "Controller": {
+                        "Configuration": {
+                            "diffuseImageAsset": {
+                                "assetId": {
+                                    "guid": "{DD355CE9-28AC-5F1D-8539-6F8B282436F1}",
+                                    "subId": 3000
+                                },
+                                "assetHint": "assets/textures/background_iblglobalcm_ibldiffuse.png.streamingimage"
+                            },
+                            "specularImageAsset": {
+                                "assetId": {
+                                    "guid": "{DD355CE9-28AC-5F1D-8539-6F8B282436F1}",
+                                    "subId": 2000
+                                },
+                                "assetHint": "assets/textures/background_iblglobalcm_iblspecular.png.streamingimage"
+                            }
+                        }
+                    },
+                    "diffuseImageAsset": {
+                        "assetId": {
+                            "guid": "{DD355CE9-28AC-5F1D-8539-6F8B282436F1}",
+                            "subId": 3000
+                        },
+                        "assetHint": "assets/textures/background_iblglobalcm_ibldiffuse.png.streamingimage"
+                    },
+                    "specularImageAsset": {
+                        "assetId": {
+                            "guid": "{DD355CE9-28AC-5F1D-8539-6F8B282436F1}",
+                            "subId": 2000
+                        },
+                        "assetHint": "assets/textures/background_iblglobalcm_iblspecular.png.streamingimage"
+                    }
+                },
+                "Component_[14994774102579326069]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14994774102579326069
+                },
+                "Component_[15417479889044493340]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15417479889044493340
+                },
+                "Component_[15826613364991382688]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15826613364991382688
+                },
+                "Component_[1665003113283562343]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1665003113283562343
+                },
+                "Component_[3704934735944502280]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3704934735944502280
+                },
+                "Component_[5698542331457326479]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5698542331457326479
+                },
+                "Component_[6644513399057217122]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6644513399057217122,
+                    "Parent Entity": "Entity_[1176639161715]"
+                },
+                "Component_[931091830724002070]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 931091830724002070
+                }
+            }
+        },
+        "Entity_[2877657906709]": {
+            "Id": "Entity_[2877657906709]",
+            "Name": "Arena",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1890070142085840968
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7696474917369830498
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1944641036229767147,
+                    "Child Entity Order": [
+                        "Entity_[1159459292531]",
+                        "Entity_[4159601956970]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16943721282479842687
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15907024164571493543
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15510567789877725634
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7887288130059813409
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11832141339193556526
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13060784509916203352,
+                    "Parent Entity": "Entity_[1176639161715]"
+                }
+            }
+        },
+        "Entity_[318629533569590]": {
+            "Id": "Entity_[318629533569590]",
+            "Name": "Player",
+            "Components": {
+                "EditorCharacterControllerComponent": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 10426547775510876085,
+                    "Configuration": {
+                        "entityId": "",
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "StepHeight": 0.0
+                    },
+                    "ShapeConfig": {
+                        "Capsule": {
+                            "Radius": 0.49999988079071045
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6526548782837910988
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2911041407490994892
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6128704722027017308,
+                    "Child Entity Order": [
+                        "Entity_[318633828536886]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14167695858410668316
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9788195622452826324
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1117924175039558409
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11845079906244374412
+                },
+                "EditorTagComponent": {
+                    "$type": "EditorTagComponent",
+                    "Id": 4382897737188207197,
+                    "Tags": [
+                        "Player"
+                    ]
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6442035319742384152
+                },
+                "InputConfigurationComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 2710546571055176377,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{76727F25-4F56-5C37-B993-ED099922A0F9}"
+                            },
+                            "assetHint": "assets/inputs/gameinput.inputbindings"
+                        }
+                    }
+                },
+                "ScriptEditorComponent": {
+                    "$type": "{B5FC8679-FA2A-4C7C-AC42-DCC279EA613A} ScriptEditorComponent",
+                    "Id": 747918797902365061,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Groups": [
+                                {
+                                    "Name": "Events",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 836276269,
+                                            "name": "ActionNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{C3ACEB31-ABCF-5D9F-9F8C-281D40587DDF}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/actionnotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1115795834,
+                                            "name": "ActionRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{4A158E5C-DDDC-5ED8-A6B5-746A3BEFB26D}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/actionrequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 3088793975,
+                                            "name": "MoveRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{3D74CAE7-A1B7-5B73-81FC-1AEE38DB7A95}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/moverequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{45958DE9-E340-50A7-B0E1-E197FBCFF59B}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/scripts/player.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{45958DE9-E340-50A7-B0E1-E197FBCFF59B}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/scripts/player.luac"
+                    }
+                },
+                "ScriptEditorComponent_2": {
+                    "$type": "{B5FC8679-FA2A-4C7C-AC42-DCC279EA613A} ScriptEditorComponent",
+                    "Id": 747918797902365061,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 1059655127,
+                                    "name": "MaxValue",
+                                    "value": 5.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                    "id": 2513741151,
+                                    "name": "MeshId",
+                                    "value": {
+                                        "$type": "EntityId",
+                                        "value": "Entity_[318633828536886]"
+                                    }
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 204622108,
+                                    "name": "RespawnDelay",
+                                    "value": 2.0
+                                }
+                            ],
+                            "Groups": [
+                                {
+                                    "Name": "Events",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 2937043492,
+                                            "name": "HealthNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{C4264B90-C141-5751-A361-31607DAD1DE5}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/healthnotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1766607554,
+                                            "name": "HealthRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{E85DF4EB-A743-5069-B903-01B85B263B85}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/healthrequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{77D904B1-FC83-5065-9D77-FBC178AE57CB}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/scripts/health.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{77D904B1-FC83-5065-9D77-FBC178AE57CB}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/scripts/health.luac"
+                    }
+                },
+                "ScriptEditorComponent_3": {
+                    "$type": "{B5FC8679-FA2A-4C7C-AC42-DCC279EA613A} ScriptEditorComponent",
+                    "Id": 747918797902365061,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 254213878,
+                                    "name": "Speed",
+                                    "value": 2.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 1735124040,
+                                    "name": "Tolerance",
+                                    "value": 0.1
+                                }
+                            ],
+                            "Groups": [
+                                {
+                                    "Name": "Events",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1375303210,
+                                            "name": "MoveNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{F5D3D065-B480-5633-BE69-A9D494E60818}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/movenotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 3088793975,
+                                            "name": "MoveRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{3D74CAE7-A1B7-5B73-81FC-1AEE38DB7A95}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/moverequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{A7783548-557C-5088-87B5-B3C2DC5A563D}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/scripts/move.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{A7783548-557C-5088-87B5-B3C2DC5A563D}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/scripts/move.luac"
+                    }
+                },
+                "ScriptEditorComponent_4": {
+                    "$type": "{B5FC8679-FA2A-4C7C-AC42-DCC279EA613A} ScriptEditorComponent",
+                    "Id": 747918797902365061,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 4034481964,
+                                    "name": "AnimationOffset",
+                                    "value": 0.5
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 2254405824,
+                                    "name": "Duration",
+                                    "value": 1.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                    "id": 2513741151,
+                                    "name": "MeshId",
+                                    "value": {
+                                        "$type": "EntityId",
+                                        "value": "Entity_[318633828536886]"
+                                    }
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 2475121225,
+                                    "name": "Range",
+                                    "value": 2.0
+                                }
+                            ],
+                            "Groups": [
+                                {
+                                    "Name": "Events",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 836276269,
+                                            "name": "ActionNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{C3ACEB31-ABCF-5D9F-9F8C-281D40587DDF}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/actionnotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1115795834,
+                                            "name": "ActionRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{4A158E5C-DDDC-5ED8-A6B5-746A3BEFB26D}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/actionrequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1766607554,
+                                            "name": "HealthRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{E85DF4EB-A743-5069-B903-01B85B263B85}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/healthrequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{F559BBB5-A3CB-55C5-ADF6-46149D12D38F}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/scripts/attack.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{F559BBB5-A3CB-55C5-ADF6-46149D12D38F}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/scripts/attack.luac"
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6400551609988216957,
+                    "Parent Entity": "Entity_[1146574390643]"
+                }
+            }
+        },
+        "Entity_[318633828536886]": {
+            "Id": "Entity_[318633828536886]",
+            "Name": "Mesh",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2243783954543428955,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8A2E7A82-D7C3-5E9C-A56C-6EDA70876347}",
+                                    "subId": 268721130
+                                },
+                                "assetHint": "materialeditor/viewportmodels/cylinder.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13768176871152317231
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8810344667550484214
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11616634910501601645
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17700344752935929958
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1522687843942761753
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4964920108025282684,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1803671422
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8EE14789-DD76-5E13-B911-47AECA63668D}"
+                                            },
+                                            "assetHint": "assets/materials/player.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorNonUniformScaleComponent": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 12211019779808646173
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8540750481640091344
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16119448265151015176
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3894903949672688234
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15356319682400314282,
+                    "Parent Entity": "Entity_[318629533569590]"
+                }
+            }
+        },
+        "Entity_[3884023583285]": {
+            "Id": "Entity_[3884023583285]",
+            "Name": "Enemy",
+            "Components": {
+                "EditorCharacterControllerComponent": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 13964234953807582266,
+                    "Configuration": {
+                        "entityId": "",
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "StepHeight": 0.0
+                    },
+                    "ShapeConfig": {
+                        "Capsule": {
+                            "Radius": 0.49999988079071045
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18219181537961414436
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 482027551582753520
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9704402173387445077,
+                    "Child Entity Order": [
+                        "Entity_[3888318550581]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11771742990190959848
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13949209801594965732
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14403658454931722144
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17805624776748892839
+                },
+                "EditorTagComponent": {
+                    "$type": "EditorTagComponent",
+                    "Id": 15956892084802343779,
+                    "Tags": [
+                        "Enemy"
+                    ]
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3814615423352187588
+                },
+                "ScriptEditorComponent": {
+                    "$type": "{B5FC8679-FA2A-4C7C-AC42-DCC279EA613A} ScriptEditorComponent",
+                    "Id": 747918797902365061,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 4034481964,
+                                    "name": "AnimationOffset",
+                                    "value": 0.5
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 2254405824,
+                                    "name": "Duration",
+                                    "value": 1.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                    "id": 2513741151,
+                                    "name": "MeshId",
+                                    "value": {
+                                        "$type": "EntityId",
+                                        "value": "Entity_[3888318550581]"
+                                    }
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 2475121225,
+                                    "name": "Range",
+                                    "value": 2.0
+                                }
+                            ],
+                            "Groups": [
+                                {
+                                    "Name": "Events",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 836276269,
+                                            "name": "ActionNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{C3ACEB31-ABCF-5D9F-9F8C-281D40587DDF}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/actionnotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1115795834,
+                                            "name": "ActionRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{4A158E5C-DDDC-5ED8-A6B5-746A3BEFB26D}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/actionrequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1766607554,
+                                            "name": "HealthRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{E85DF4EB-A743-5069-B903-01B85B263B85}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/healthrequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{F559BBB5-A3CB-55C5-ADF6-46149D12D38F}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/scripts/attack.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{F559BBB5-A3CB-55C5-ADF6-46149D12D38F}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/scripts/attack.luac"
+                    }
+                },
+                "ScriptEditorComponent_2": {
+                    "$type": "{B5FC8679-FA2A-4C7C-AC42-DCC279EA613A} ScriptEditorComponent",
+                    "Id": 747918797902365061,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 2996469915,
+                                    "name": "Delay",
+                                    "value": 1.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 2814268260,
+                                    "name": "OutOfRange",
+                                    "value": 3.0
+                                }
+                            ],
+                            "Groups": [
+                                {
+                                    "Name": "Events",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 836276269,
+                                            "name": "ActionNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{C3ACEB31-ABCF-5D9F-9F8C-281D40587DDF}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/actionnotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1115795834,
+                                            "name": "ActionRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{4A158E5C-DDDC-5ED8-A6B5-746A3BEFB26D}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/actionrequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 2937043492,
+                                            "name": "HealthNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{C4264B90-C141-5751-A361-31607DAD1DE5}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/healthnotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1766607554,
+                                            "name": "HealthRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{E85DF4EB-A743-5069-B903-01B85B263B85}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/healthrequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 3088793975,
+                                            "name": "MoveRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{3D74CAE7-A1B7-5B73-81FC-1AEE38DB7A95}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/moverequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{C1645625-EA8C-5EDC-9B35-E84498470F8C}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/scripts/counterattack.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{C1645625-EA8C-5EDC-9B35-E84498470F8C}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/scripts/counterattack.luac"
+                    }
+                },
+                "ScriptEditorComponent_3": {
+                    "$type": "{B5FC8679-FA2A-4C7C-AC42-DCC279EA613A} ScriptEditorComponent",
+                    "Id": 747918797902365061,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                    "id": 110428848,
+                                    "name": "ItemPrefab",
+                                    "value": {
+                                        "$type": "AzFramework::Scripts::SpawnableScriptAssetRef",
+                                        "value": {
+                                            "asset": {
+                                                "assetId": {
+                                                    "guid": "{8C6D2BE7-61F5-546A-B1E5-1B4F19615DD1}",
+                                                    "subId": 2263313845
+                                                },
+                                                "loadBehavior": "QueueLoad",
+                                                "assetHint": "prefabs/potion.spawnable"
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "Groups": [
+                                {
+                                    "Name": "Events",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 2937043492,
+                                            "name": "HealthNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{C4264B90-C141-5751-A361-31607DAD1DE5}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/healthnotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{DF14E473-44E1-5B69-97C7-1EE2C38B6AE1}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/scripts/drop.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{DF14E473-44E1-5B69-97C7-1EE2C38B6AE1}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/scripts/drop.luac"
+                    }
+                },
+                "ScriptEditorComponent_4": {
+                    "$type": "{B5FC8679-FA2A-4C7C-AC42-DCC279EA613A} ScriptEditorComponent",
+                    "Id": 747918797902365061,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 254213878,
+                                    "name": "Speed",
+                                    "value": 1.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 1735124040,
+                                    "name": "Tolerance",
+                                    "value": 0.1
+                                }
+                            ],
+                            "Groups": [
+                                {
+                                    "Name": "Events",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1375303210,
+                                            "name": "MoveNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{F5D3D065-B480-5633-BE69-A9D494E60818}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/movenotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 3088793975,
+                                            "name": "MoveRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{3D74CAE7-A1B7-5B73-81FC-1AEE38DB7A95}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/moverequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{A7783548-557C-5088-87B5-B3C2DC5A563D}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/scripts/move.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{A7783548-557C-5088-87B5-B3C2DC5A563D}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/scripts/move.luac"
+                    }
+                },
+                "ScriptEditorComponent_5": {
+                    "$type": "{B5FC8679-FA2A-4C7C-AC42-DCC279EA613A} ScriptEditorComponent",
+                    "Id": 747918797902365061,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 1059655127,
+                                    "name": "MaxValue",
+                                    "value": 3.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                    "id": 2513741151,
+                                    "name": "MeshId",
+                                    "value": {
+                                        "$type": "EntityId",
+                                        "value": "Entity_[3888318550581]"
+                                    }
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 204622108,
+                                    "name": "RespawnDelay",
+                                    "value": 2.0
+                                }
+                            ],
+                            "Groups": [
+                                {
+                                    "Name": "Events",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 2937043492,
+                                            "name": "HealthNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{C4264B90-C141-5751-A361-31607DAD1DE5}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/healthnotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1766607554,
+                                            "name": "HealthRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{E85DF4EB-A743-5069-B903-01B85B263B85}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/healthrequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{77D904B1-FC83-5065-9D77-FBC178AE57CB}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/scripts/health.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{77D904B1-FC83-5065-9D77-FBC178AE57CB}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/scripts/health.luac"
+                    }
+                },
+                "ScriptEditorComponent_6": {
+                    "$type": "{B5FC8679-FA2A-4C7C-AC42-DCC279EA613A} ScriptEditorComponent",
+                    "Id": 747918797902365061,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AZ::ScriptPropertyGenericClassArray",
+                                    "id": 666537513,
+                                    "name": "Points",
+                                    "values": [
+                                        {
+                                            "$type": "Vector3",
+                                            "value": [
+                                                -4.0,
+                                                -4.0,
+                                                0.0
+                                            ]
+                                        },
+                                        {
+                                            "$type": "Vector3",
+                                            "value": [
+                                                4.0,
+                                                -4.0,
+                                                0.0
+                                            ]
+                                        },
+                                        {
+                                            "$type": "Vector3",
+                                            "value": [
+                                                4.0,
+                                                4.0,
+                                                0.0
+                                            ]
+                                        },
+                                        {
+                                            "$type": "Vector3",
+                                            "value": [
+                                                -4.0,
+                                                4.0,
+                                                0.0
+                                            ]
+                                        }
+                                    ],
+                                    "elementType": "{8379EB7D-01FA-4538-B64B-A6543B4BE73D}"
+                                }
+                            ],
+                            "Groups": [
+                                {
+                                    "Name": "Events",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 2937043492,
+                                            "name": "HealthNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{C4264B90-C141-5751-A361-31607DAD1DE5}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/healthnotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1375303210,
+                                            "name": "MoveNotificationEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{F5D3D065-B480-5633-BE69-A9D494E60818}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/movenotifications.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 3088793975,
+                                            "name": "MoveRequestEvents",
+                                            "value": {
+                                                "$type": "ScriptEventsAssetRef",
+                                                "value": {
+                                                    "Asset": {
+                                                        "assetId": {
+                                                            "guid": "{3D74CAE7-A1B7-5B73-81FC-1AEE38DB7A95}"
+                                                        },
+                                                        "assetHint": "assets/scriptevents/moverequests.scriptevents"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{E08557F4-B671-5E1C-A490-5E045B6277D0}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/scripts/patrol.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{E08557F4-B671-5E1C-A490-5E045B6277D0}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/scripts/patrol.luac"
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6400907511297979083,
+                    "Parent Entity": "Entity_[1146574390643]"
+                }
+            }
+        },
+        "Entity_[3888318550581]": {
+            "Id": "Entity_[3888318550581]",
+            "Name": "Mesh",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15234514636392736389,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8E6D29E3-0019-5C5A-9F5D-61656BC02DD7}",
+                                    "subId": 284874770
+                                },
+                                "assetHint": "materialeditor/viewportmodels/cone.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4269802754229182940
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4688871062496305258
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8402341627364510887
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5902375300104426067
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12220318357265473641
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 18294073025620873352,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1803671422
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3484ED43-1CF1-583B-8A9F-E16A0EA4880C}"
+                                            },
+                                            "assetHint": "assets/materials/enemy.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorNonUniformScaleComponent": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 3893374899927971411
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2181894272002926258
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16481505001311233774
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6853490498863782119
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14519687891124183514,
+                    "Parent Entity": "Entity_[3884023583285]"
+                }
+            }
+        },
+        "Entity_[4159601956970]": {
+            "Id": "Entity_[4159601956970]",
+            "Name": "Walls",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14030548075518534032
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9169667739997690237
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1971513915775496089
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4247926578450344483
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5590876041048310993
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3246157765104245795
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16539726108338692325
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6429738246994065245
+                },
+                "EditorWhiteBoxColliderComponent": {
+                    "$type": "EditorWhiteBoxColliderComponent",
+                    "Id": 15585076892100174520,
+                    "Configuration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "propertyVisibilityFlags": 235
+                    },
+                    "MeshData": {
+                        "CookedData": "TlhTAU1FU0gPAAAAAAAAAAYAAAAQAAAAJAAAAAAAwMAAAMDAAAAAPwAAwEAAAMDAAAAAPwAAsEAAALDAAAAAPwAAsMAAALDAAAAAPwAAsMAAALDAAAAAAAAAsEAAALDAAAAAAAAAwEAAAMDAAAAAAAAAwMAAAMDAAAAAAAAAwEAAAMBAAAAAAAAAwEAAAMBAAAAAPwAAsEAAALBAAAAAAAAAsEAAALBAAAAAPwAAsMAAALBAAAAAAAAAsMAAALBAAAAAPwAAwMAAAMBAAAAAAAAAwMAAAMBAAAAAPwcPDgcADwQODAQHDgADDQANDwMMDQMEDAACAwABAgcGAQcBAAQGBwQFBgUEAwUDAg8NCw8LCQ0MCg0KCwwICgwOCA4JCA4PCQULCgUCCwYKCAYFCgIJCwIBCQEGCAEICQoICQgKCwoJCwgLCSMAAAAXFhUUGBkSEwEABAUDAggJICEiIx0cHx4PDg0MERAHBhoKGwtSVFJFAgAAABkEwMAZBMDAbxIDugAAAAAZBMBAGQTAQMUgAD8AAAAAAACAPwAAgD8AAIA/AACAP9kEQDnZBEA5CkIANwAAAAAEAAAAAQAAAAIAAAAUAAAABQAAAAAAAAAZBMDAGQTAwBkEwMDn+69AGQTAwBkEwMDn+69AGQTAwG8SA7pvEgO6bxIDum8SA7rn+6/AGQTAQBkEwEAZBMBAGQTAQOf7r8AZBMBAGQTAQMUgAD/FIAA/xSAAP8UgAD9wAAAA4AAAAFABAADAAQAAGQTAwBkEwMAZBMDAGQSwwBkEwMAZBMDAGQTAwBkEsMBvEgO6bxIDune+/z5vEgO65/u/wOf7r8Dn+6/A5/uvwBkEwEAZBMBAGQTAQBkEsEDFIAA/bxIDOsUgAD/FIAA/AwAAAEMAAACDAAAAwwAAABkEwMAZBMDAGQTAwBkEsMAZBMDAGQTAwBkEwMAZBLDAd77/Pm8SA7pvEgO6bxIDuhkEwEAZBMBAGQTAQBkEsEDn+6/A5/u/wOf7r8Dn+6/AxSAAP8UgAD9vEgM6xSAAPwMBAABDAQAAgwEAAMMBAAAZBMDAGQSwwBkEwMAZBMDA5/uvQOf7r0Dn+69A5/u/QHe+/z5vEgO6bxIDum8SA7oZBMBAGQSwQBkEwEAZBMBAGQTAQBkEsEAZBMBAGQTAQMUgAD/FIAA/bxIDOsUgAD8DAgAAQwIAAIMCAADDAgAA5/uvQOf7r0Dn+79A5/uvQBkEwMAZBMDAGQTAwOf7r0BvEgO6d77/Pm8SA7pvEgO6GQTAQBkEwEAZBMBAGQTAQBkEwEAZBMBAGQTAQBkEwEDFIAA/xSAAP8UgAD/FIAA/BwMAAIMDAADDAwAABwQAAAAAwDUAAMDAAADAwAAAAAAAAMBAAADAQAAAAD8kAAAAMBggEBAgIBAQCBgwEAgIEBAwEDAwEDAYMBAwEDAQGDAYGDAw"
+                    }
+                },
+                "EditorWhiteBoxComponent": {
+                    "$type": "EditorWhiteBoxComponent",
+                    "Id": 16006799980284779324,
+                    "WhiteBoxData": "T01UQRQAAAAkAAAANgAAAAAWAADAwAAAwMAAAAA/AADAQAAAwMAAAAA/AACwQAAAsMAAAAA/AACwwAAAsMAAAAA/AADAwAAAwMAAAAAAAADAQAAAwMAAAAAAAACwQAAAsMAAAAAAAACwwAAAsMAAAAAAAADAQAAAwEAAAAAAAACwQAAAsEAAAAAAAACwQAAAsEAAAAA/AADAQAAAwEAAAAA/AACwwAAAsEAAAAAAAADAwAAAwEAAAAAAAADAwAAAwEAAAAA/AACwwAAAsEAAAAA/AACwQAAAsEAAAAAAAADAQAAAwEAAAAAAAADAQAAAwEAAAAA/AACwQAAAsEAAAAA/+BYCAQAYAAUEAgA2ARAAAAAGAgEIAwEbAgkFAAFOAxgMBgIeBwgOBQIsBgwKBwIQBQMSBAMUBQQPBwNEBBQWAQQxBQcRBAQBAQUXBAVKABYyAg4hBgkVAQcrCAYgAwhJBxMLBggHAwkkCQowCA0mCgotCQ8iCAooCgsqCwszChEnCAs3CwYuCQw1Bg8NBQwjCQ0vBQ0cCAc0Cg45AhEaBg4lCg84CxAdAQYDAhApCxFcDRxIDBViDh5FDRcfAxNDDBJmDyBLDhlhDCJPDxJGDRRNBBcTBxQ7DRVHBxU+DBNMDhZRABkZBBY9DhdQDxg/AxIJABhBDxlUERpgEB1WEhpdER9SEBpYEhtaExtjEiFXEBtnEyNeERxlDR86DBxTER1fDB1qECJkEh5pDiE8DR5VEh9oEyBrDyNADiBZEyFCDyJbECNYDgAAsMAAANBAAADQQAAAAAAAAKDAAADAQAAAsMAAANBAAADQQAAA0EAAAKDAAADAQAAAwEAAAMBAAACgwAAAAAAAANBAAADQQAAAwEAAAMBAAACgwAAAwEAAAMBAAAAAPwAAsMAAANBAAACgwAAAwEAAAMBAAADAQAAAsMAAANBAAADQQAAA0EAAALDAAAAAPwAAwEAAAMBAAADQQAAA0EAAALDAAAAAAAAAAD8AANBAAADQQAAAAD8AALDAAAAAAAAA0EAAAAA/AAAAAAAA0EAAAAAAAADAQAAAoMAAAAA/AAAAAAAA0EAAAAA/AACwwAAAwEAAAAAAAAAAPwAAwEAAAKDAAAAAPwAAwEAAAAAAAAAAPwAAoMAAALDAAACwwAAAAAAAAKDAAAAAPwAAoMAAAAA/AACwwAAAAAAAAKDAAAAAAAAAsMAAAKDAAACgwAAAAD8AALDAAAAAAAAAsMAAAKDAAACgwAAAAD8AAMBAAACwwAAA0EAAAKDAAACgwAAAsMAAANBAAAAAPwAAsMAAAAAAAACgwAAAoMAAAMBAAAAAPwAAwEAAAAAAAACgwAAAsMAAALDAAAAAAAAA0EAAAKDAAADAQAAAsMAAALDAAADQQAAAsMAAAMBAAACgwAAA0EAAAAAAAAAAPwAAsMAAAAAAAADAQAAAAD8AAKDAAADAQAAAoMAAANBAAACwwAAAwEAAAAA/AAAAAAAAoMAAANBAAACwwAAAAD8AANBAAADAQAAAwEAAANBAAACwwAAAwEAAAMBAAAAAPwAAoMAAAAAAAACwwAAA0EAAANBAAAAAPwAA0EAAAAAAAACwwAAAwEAAAKDAAAAAAAAAwEAAANBAAADQQAAAwEAAAKDAAAAAPwAAsMAAAKDAAACgwAAAAAAAALDAAACwwAAAAD8AAAA/AACgwAAAAAAAALDAAAAAAAAAoMAAALDAAACwwAAAAD8AAKDAAACgwAAAAAAAALDAAACwwAAA0EAAAAA/AADAQAAAoMAAALDAAACwwAAAwEAAAKDAAACgwAAAAD8AALDAAAAAAAAA0EAAALDAAADQQAAAAD8AALDAAAAAAAAAoMAAAKDAAADAQAAAAAAAANBAAACwwAAAoMAAAKDAAADAQAAAAAAAAKDAAAAAP+AGUR05P00xNUkrLTM3YWVpa1tdY2foBgQIDhIWGDccIBsmKi4wNC04M08+RkhMRVBLVlpeYGRdaGNqZygWAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAgAAAAIAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAAAAgAAAgL8AAAAAAACAPwAAAAAAAACAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAgAAAgD8AAAAA8wQ1v/MENT8AAAAA8wQ1v/MENT8AAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AACAvwAAAAAAAAAAAACAvwAAAAAAAACAAAAAAAAAAIAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAACAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AACAvwAAAAAAAAAAAACAvwAAAAAAAACAAAAAAAAAAIAAAIA/AAAAAAAAAAAAAIA/8wQ1P/MENb8AAAAA8wQ1P/MENb8AAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAgAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAAIAAAIA/AAAAAAAAAIAAAIA/AAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAwsATdmVydGV4LWhpZGRlbi1wcm9wcwMAAAAAAADGwA1wb2x5Z29uLXByb3BzRAIAACQAAAAFAAAAAgAAAAQAAAAFAAAAHAAAAAIAAAAcAAAAHQAAAAwAAAACAAAADAAAAA0AAAAjAAAAAgAAACIAAAAjAAAAEwAAAAIAAAATAAAAEgAAABoAAAACAAAAGgAAABsAAAADAAAAAgAAAAIAAAADAAAADQAAAAIAAAAMAAAADQAAABQAAAACAAAAFAAAABUAAAAPAAAAAgAAAA4AAAAPAAAAFgAAAAIAAAAWAAAAFwAAAB0AAAACAAAAHAAAAB0AAAAGAAAAAgAAAAcAAAAGAAAADgAAAAIAAAAOAAAADwAAABUAAAACAAAAFAAAABUAAAAQAAAAAgAAABAAAAARAAAAFwAAAAIAAAAWAAAAFwAAAAAAAAACAAAAAAAAAAEAAAAeAAAAAgAAAB4AAAAfAAAABwAAAAIAAAAHAAAABgAAABEAAAACAAAAEAAAABEAAAAYAAAAAgAAABgAAAAZAAAAAQAAAAIAAAAAAAAAAQAAAB8AAAACAAAAHgAAAB8AAAAIAAAAAgAAAAgAAAAJAAAABAAAAAIAAAAEAAAABQAAABsAAAACAAAAGgAAABsAAAALAAAAAgAAAAoAAAALAAAAIgAAAAIAAAAiAAAAIwAAABkAAAACAAAAGAAAABkAAAACAAAAAgAAAAIAAAADAAAAEgAAAAIAAAATAAAAEgAAACAAAAACAAAAIAAAACEAAAAJAAAAAgAAAAgAAAAJAAAAIQAAAAIAAAAgAAAAIQAAAAoAAAACAAAACgAAAAsAAAAcAA==",
+                    "Material": {
+                        "UseTexture": false
+                    },
+                    "RenderData": {
+                        "Faces": [
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        6.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        6.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        6.5
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.0,
+                                    -0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        6.5
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        0.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        0.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        0.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    -1.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        0.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        0.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        0.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.0,
+                                    -1.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    1.0,
+                                    0.0,
+                                    -0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        0.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        0.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        0.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        0.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        0.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        0.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.0,
+                                    1.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.7071067690849304,
+                                    0.7071067690849304,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.7071067690849304,
+                                    0.7071067690849304,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -1.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -1.0,
+                                    0.0,
+                                    -0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    -0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    1.0,
+                                    0.0,
+                                    -0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    -1.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    -1.0,
+                                    0.0,
+                                    -0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -5.5,
+                                        -5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        6.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    -0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        -6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        6.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    0.7071067690849304,
+                                    -0.7071067690849304,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        0.5,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.7071067690849304,
+                                    -0.7071067690849304,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        0.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        0.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        0.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.0,
+                                    1.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        0.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        0.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        0.5
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    -0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        -5.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        6.0,
+                                        6.0,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.5,
+                                        -5.5
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    -0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        0.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        0.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        0.5
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    -1.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        6.0,
+                                        0.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.0
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        0.5
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        5.5,
+                                        5.5,
+                                        0.5
+                                    ],
+                                    "UV": [
+                                        -5.0,
+                                        0.0
+                                    ]
+                                },
+                                "Normal": [
+                                    0.0,
+                                    -1.0,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "Material": {
+                            "UseTexture": false
+                        }
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7550970534712243265,
+                    "Parent Entity": "Entity_[2877657906709]"
+                }
+            }
+        },
+        "Entity_[460698165527]": {
+            "Id": "Entity_[460698165527]",
+            "Name": "Camera",
+            "Components": {
+                "EditorCameraComponent": {
+                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
+                    "Id": 10959423954566196670,
+                    "Controller": {
+                        "Configuration": {
+                            "Field of View": 55.0
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6723832774012120361
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8181020499105403441
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11793640267372992359
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5294538213174745159
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3684576252828565628
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 78905778966479764
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14112029558711818269
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9017250959014114070
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14331644285459516727,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            5.5,
+                            -5.5,
+                            6.0
+                        ],
+                        "Rotate": [
+                            -35.264400482177734,
+                            -30.0,
+                            35.264400482177734
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
